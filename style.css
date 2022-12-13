@@ -1,0 +1,32 @@
+.grid {
+	background-color: #cfc ;
+	padding: 10px ;
+	border: 1px solid green ;
+	height: 600px;
+	width: 600px;
+	display: grid;
+	grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 200px 200px 200px;
+}
+
+.gridcell {
+	background-color: #cfc ;
+	border: 1px solid green ;
+	font-size: 115px;
+	text-align: center;
+	cursor: pointer;
+}
+
+
+.victory-text {
+    width: 600px;
+    text-align: center;
+    display: block;
+    font-size: 50px;
+}
+
+.restart-button {
+	width: 600px;
+    height: 100px;
+    font-size: 30px;
+}
